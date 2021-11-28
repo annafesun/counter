@@ -1,0 +1,24 @@
+.value-setter{
+  font-size: 40px;
+  line-height: 44px;
+  min-height: 200px;
+  max-width: 400px;
+  width: 100%;
+  font-weight: bold;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(-35deg, aqua, #208bc4);
+  box-shadow: 0 0 10px black;
+  border-radius: 6px;
+  margin-bottom: 40px;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  padding: 20px;
+  opacity: .9;
+  @media (max-width: 991px){
+    min-height: 120px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
